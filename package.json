@@ -1,0 +1,33 @@
+{
+  "author": "Neal Tucker",
+  "name": "directorymonitor",
+  "description": "persistent-storage evented directory monitor",
+  "version": "0.0.5",
+  "dependencies": {
+    "wrench": "^1.5.8",
+    "when": "^3.1.0",
+    "MD5": "^1.2.1",
+    "sqlite3": "^2.2.3"
+  },
+  "scripts": {
+    "start": "node colmon.js",
+    "test": "tapr test/test-*"
+  },
+  "main": "./lib/index.js",
+  "devDependencies": {
+    "rimraf": "^2.2.6",
+    "nodeunit": "~0.8.6",
+    "tap": "^0.4.8",
+    "tapr": "^0.1.3",
+    "node-uuid": "^1.4.1"
+  },
+  "keywords": [
+    "filesystem",
+    "events",
+    "monitor"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  }
+}
