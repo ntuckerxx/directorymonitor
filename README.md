@@ -23,7 +23,7 @@ file on a remote server because you disconnected from the network.
 Usage
 -----
 
-    var DirectoryMonitor = require('./lib/directorymonitor.js');
+    var DirectoryMonitor = require('./lib/directorymonitor.js'); /* fixme: hey, shouldn't this be an npm module? */
 
 Instantiate with a path to a SQLite database for storing state.
 The database will be created and initialized if it does not exist.
