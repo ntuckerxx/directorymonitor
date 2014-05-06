@@ -69,11 +69,7 @@ rows.
 
 TBD
 ---
-* **BUG:** handle file disappearance while DirectoryMonitor is not running (mark/sweep
-    the file table so that after initial scan, unseen files are called deleted)
 * **Not implemented:** handle directory disappearance ("offline" events)
-* investigate possiblity of only monitoring directories instead of using `watch`
-to monitor every file in the directory tree.
 * emit file_delete events when removeDir() is called?  Not actually sure about
 this one.  You're indicating your disinterest in a directory.  Do you care that
 all of its file entries were removed from the db?
