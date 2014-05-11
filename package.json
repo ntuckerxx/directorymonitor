@@ -2,7 +2,7 @@
   "author": "Neal Tucker",
   "name": "directorymonitor",
   "description": "persistent-storage evented directory monitor",
-  "version": "0.0.5.1",
+  "version": "0.0.6",
   "dependencies": {
     "wrench": "^1.5.8",
     "when": "^3.1.0",
